@@ -1,0 +1,15 @@
+body {
+  background-color: tan;
+  font-family: sans-serif;
+    }
+    h1, h3 {
+      color: green;
+      font-family: cursive;
+    }
+    span {
+      color: blue;
+    }
+    #special {
+      color: red;
+      font-family: fantasy;
+    }
