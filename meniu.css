@@ -3,8 +3,14 @@ body {
   font-family: sans-serif;
     }
     h1, h3 {
-      color: green;
+      color: blue;
       font-family: cursive;
+    }
+    .tea{
+      color:green;
+    }
+    .coffee{
+      color:rgb(235, 66, 66);
     }
     span {
       color: blue;
