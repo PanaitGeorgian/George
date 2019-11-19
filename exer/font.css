@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+}
+#p1 {
+font-weight: bold;
+font-family: 'Odibee Sans', cursive;
+font-size: 2em;
+line-height: 1.5em;
+text-align: center;
+border: 3px solid steelblue ;
+border-radius: 1em;
+padding: 10px 20px 30px 20px ;
+margin: auto ;
+background-color: rgb(20, 17, 65);
+background-image: url(background.gif);
+background-repeat: no-repeat;
+background-position: bottom;
+background-size: unset;
+color: rgb(150, 21, 3);
+width: 70%;
+height: 300px;
+
+
+}
+p{
+    font-weight: bolder;
+    line-height: 2em;
+}
+#p1 span {
+    color: white;
+}
+#p2 span {
+    color: rgb(62, 204, 121);
+}
+div {
+    background-color: cornflowerblue;
+    border: 5px solid black;
+    padding: 10px;
+}
+div div {
+    background-color: darkred;
+    border: 2px solid blue;
+    width: 75%;
+    padding: unset;
+}
