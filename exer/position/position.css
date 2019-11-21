@@ -1,0 +1,47 @@
+body{
+    height: 1000px;
+}
+
+
+div div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+div div:first-child{
+    background-color: brown;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    z-index: 1;
+    
+}
+.container{
+    background-color: yellow;
+    width: 300px;
+    position: relative;
+    left: 30%;
+    z-index: 2;
+}
+div div:nth-child(2){
+    background-color:green;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+div div:nth-child(3){
+    background-color: rgb(90, 192, 205);
+    position: sticky;
+    top: 5%;
+    left: 5%;
+    
+}
+div div:last-child{
+    background-color: rgb(87, 87, 189);
+    position: relative;
+    bottom: 10px;
+    left: 50%;
+}
+div{
+    color: white;
+}
