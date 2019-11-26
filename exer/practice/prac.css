@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+form{
+    background-color: rgb(218, 218, 218);
+    width: 35%;
+    padding: 2em 1em;
+    border-radius: 10px;
+}
+input , select  {
+    display: block;
+}
+input[type=text] {
+    width: 95%;
+    border-radius: 8px;
+    padding: 1em 2em;
+    border: 1px solid #ccc
+}
+input[type=submit]{
+    width: 95%;
+    background-color: rgb(41, 182, 41);
+    border-radius: 6px;
+    height: 4em;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: rgb(119, 30, 30);
+
+}
+select{
+    width: 95%;
+    background-color: red;
+}
