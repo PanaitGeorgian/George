@@ -1,0 +1,49 @@
+a{
+    color: crimson  ;
+    text-decoration: none;
+}
+a:link{
+    color: rgb(115, 255, 0);
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 128, 6);
+    text-decoration-style: double; 
+}
+::selection{
+    background-color: tan;
+}
+::first-line{
+    text-transform: capitalize;
+}
+.magic{
+    display: none;
+    position: absolute;
+    top: 1em;
+    background-color: grey;
+    border-radius: 4px;
+}
+.dropdown:hover .magic{
+    display: block;
+}
+.trans{
+    background-color: rgb(187, 54, 54);
+    border-radius: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    transform: rotate(20deg);
+    transform: scale(3);
+    transition: 2s;
+}
+.trans:hover{
+    top: 20%;
+    background-color: green;
+
+
+}
