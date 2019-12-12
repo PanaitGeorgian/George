@@ -9,12 +9,10 @@ var date = new Date();
 var hour = date.getHours()
 
 if (hour  = 0 )
+    allert("Happy New Year")    
 else if (hour >= 20 || hour <= 6) {
     alert("Noapte Buna!") ; 
-    alert("Somn usor")
-
-}else if ( hour==0 ) {
-    allert("Happy New Year")  }  
+    alert("Somn usor")z
 } else if ( hour <= 11 ) {
     alert("Buna dimineata")
 } else if( hour <=19 ) {
